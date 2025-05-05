@@ -12,12 +12,6 @@ export default function Main() {
     setIngredients((prevIngredients) => [...prevIngredients, newIngredient])
   }
 
-  /**
-   * Challenge:
-   * Using conditional rendering, only render the new <section> IF
-   * there are ingredients added to the list of ingredients.
-   */
-
   return (
     <main>
       <form action={addIngredient} className="add-ingredient-form">
